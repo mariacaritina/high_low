@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="highlow.js"></script>
+    <link rel="stylesheet" href="highlow.css">
+    <title>High Low Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Guessing Game</h1>
+        <p>Guess a number between 1 and 100.</p>
+        <p>You have 5 tries</p>
+        <input type="number" id="guess" min="1" max="100">
+        <div id="message"></div>
+        <button onclick="checkGuess()" id="guessButton">Submit Guess</button>
+    </div>
+</body>
+</html>
